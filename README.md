@@ -103,7 +103,7 @@ Mac/Linux
 source venv/bin/activate
 
 3️⃣ Install Dependencies
-pip install -r requirements.txt
+pip install -r requirement.txt
 
 4️⃣ Run the Application
 python app.py
