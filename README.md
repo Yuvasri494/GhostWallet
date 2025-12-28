@@ -77,7 +77,7 @@ Fraud / Normal Decision
 
 ## 📦 Requirements
 
-Your `requirements.txt`:
+Your `requirement.txt`:
 
 ```txt
 Flask==2.3.3
@@ -85,21 +85,19 @@ Flask-CORS==4.0.0
 numpy==1.24.3
 
 🚀 How to Run on Any New System
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/ghostwallet.git
 cd ghostwallet
 
 2️⃣ Create Virtual Environment (Recommended)
-
 python -m venv venv
 Activate it:
 
 Windows
-
 venv\Scripts\activate
 
 Mac/Linux
-
 source venv/bin/activate
 
 3️⃣ Install Dependencies
@@ -116,21 +114,21 @@ http://127.0.0.1:5000
 User Registration
 
 Behavioral data is collected
-
+           |
 Baseline vector is created
-
+            |
 User Action / Login
-
+            |
 New behavior data is captured
-
+             |
 Converted into a behavior vector
-
+             |
 Comparison
-
+      |
 Cosine similarity is calculated
-
+              |
 Compared against stored baseline
-
+   |
 Decision
 
 ✅ Normal Behavior → Allowed
